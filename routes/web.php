@@ -18,3 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('mahasiswa','mahasiswacontroller@index');
+route::get('mahasiswa-create','mahasiswacontroller@create');
